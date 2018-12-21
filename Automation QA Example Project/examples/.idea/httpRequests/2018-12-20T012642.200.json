@@ -1,0 +1,806 @@
+{
+  "links": [],
+  "page": 1,
+  "page_size": 100,
+  "total": 3,
+  "items": [
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955"
+        },
+        {
+          "rel": "test-case",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032?versionId=357852"
+        },
+        {
+          "rel": "attachments",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-logs/4881955/attachments"
+        }
+      ],
+      "id": 4881955,
+      "test_case_version_id": 357852,
+      "exe_start_date": "2018-12-19T15:02:44+04:00",
+      "exe_end_date": "2018-12-19T15:02:44+04:00",
+      "user_id": 135,
+      "planned_exe_time": 0,
+      "actual_exe_time": 0,
+      "properties": [
+        {
+          "field_id": 6546,
+          "field_name": "Tester",
+          "field_value": "135",
+          "field_value_name": "Sergey Gerasimov"
+        },
+        {
+          "field_id": 6540,
+          "field_name": "Execution Type",
+          "field_value": "501",
+          "field_value_name": "New Feature"
+        },
+        {
+          "field_id": 6553,
+          "field_name": "Test Case Version",
+          "field_value": "1.0"
+        },
+        {
+          "field_id": 6545,
+          "field_name": "Status",
+          "field_value": "602",
+          "field_value_name": "Failed"
+        },
+        {
+          "field_id": 6541,
+          "field_name": "Planned Start Date",
+          "field_value": "2018-12-06T08:00:00+00:00"
+        },
+        {
+          "field_id": 6551,
+          "field_name": "Configuration",
+          "field_value": "28",
+          "field_value_name": "Google Chrome - Windows 10"
+        },
+        {
+          "field_id": 6554,
+          "field_name": "Planned End Date",
+          "field_value": "2019-01-02T08:00:00+00:00"
+        },
+        {
+          "field_id": 6543,
+          "field_name": "Build Number",
+          "field_value": ""
+        },
+        {
+          "field_id": 6548,
+          "field_name": "CI Tool",
+          "field_value": ""
+        },
+        {
+          "field_id": 6557,
+          "field_name": "Build URL",
+          "field_value": ""
+        },
+        {
+          "field_id": 20318,
+          "field_name": "Reason for Failed Test Case",
+          "field_value": "",
+          "field_value_name": ""
+        },
+        {
+          "field_id": 6738,
+          "field_name": "Test Data Source",
+          "field_value": ""
+        }
+      ],
+      "status": {
+        "links": [],
+        "id": 602,
+        "name": "Failed"
+      },
+      "result_number": 3,
+      "test_step_logs": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349469"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828863"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349469/defects"
+            }
+          ],
+          "test_step_id": 3828863,
+          "test_step_log_id": 11349469,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 6,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349468"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828862"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349468/defects"
+            }
+          ],
+          "test_step_id": 3828862,
+          "test_step_log_id": 11349468,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 5,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349467"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828861"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349467/defects"
+            }
+          ],
+          "test_step_id": 3828861,
+          "test_step_log_id": 11349467,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 4,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349466"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828860"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349466/defects"
+            }
+          ],
+          "test_step_id": 3828860,
+          "test_step_log_id": 11349466,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 3,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349465"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828859"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349465/defects"
+            }
+          ],
+          "test_step_id": 3828859,
+          "test_step_log_id": 11349465,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 2,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349464"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828858"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955/test-steps/11349464/defects"
+            }
+          ],
+          "test_step_id": 3828858,
+          "test_step_log_id": 11349464,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 1,
+          "group": 0,
+          "defects": []
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938"
+        },
+        {
+          "rel": "test-case",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032?versionId=357852"
+        },
+        {
+          "rel": "attachments",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-logs/4881938/attachments"
+        }
+      ],
+      "id": 4881938,
+      "test_case_version_id": 357852,
+      "exe_start_date": "2018-12-19T15:01:45+04:00",
+      "exe_end_date": "2018-12-19T15:01:45+04:00",
+      "user_id": 135,
+      "planned_exe_time": 0,
+      "actual_exe_time": 0,
+      "properties": [
+        {
+          "field_id": 6546,
+          "field_name": "Tester",
+          "field_value": "135",
+          "field_value_name": "Sergey Gerasimov"
+        },
+        {
+          "field_id": 6540,
+          "field_name": "Execution Type",
+          "field_value": "501",
+          "field_value_name": "New Feature"
+        },
+        {
+          "field_id": 6553,
+          "field_name": "Test Case Version",
+          "field_value": "1.0"
+        },
+        {
+          "field_id": 6545,
+          "field_name": "Status",
+          "field_value": "604",
+          "field_value_name": "Blocked"
+        },
+        {
+          "field_id": 6541,
+          "field_name": "Planned Start Date",
+          "field_value": "2018-12-06T08:00:00+00:00"
+        },
+        {
+          "field_id": 6551,
+          "field_name": "Configuration",
+          "field_value": "28",
+          "field_value_name": "Google Chrome - Windows 10"
+        },
+        {
+          "field_id": 6554,
+          "field_name": "Planned End Date",
+          "field_value": "2019-01-02T08:00:00+00:00"
+        },
+        {
+          "field_id": 6543,
+          "field_name": "Build Number",
+          "field_value": ""
+        },
+        {
+          "field_id": 6548,
+          "field_name": "CI Tool",
+          "field_value": ""
+        },
+        {
+          "field_id": 6557,
+          "field_name": "Build URL",
+          "field_value": ""
+        },
+        {
+          "field_id": 20318,
+          "field_name": "Reason for Failed Test Case",
+          "field_value": "",
+          "field_value_name": ""
+        },
+        {
+          "field_id": 6738,
+          "field_name": "Test Data Source",
+          "field_value": ""
+        }
+      ],
+      "status": {
+        "links": [],
+        "id": 604,
+        "name": "Blocked"
+      },
+      "result_number": 2,
+      "test_step_logs": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349339"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828863"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349339/defects"
+            }
+          ],
+          "test_step_id": 3828863,
+          "test_step_log_id": 11349339,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 6,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349338"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828862"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349338/defects"
+            }
+          ],
+          "test_step_id": 3828862,
+          "test_step_log_id": 11349338,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 5,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349337"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828861"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349337/defects"
+            }
+          ],
+          "test_step_id": 3828861,
+          "test_step_log_id": 11349337,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 4,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349336"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828860"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349336/defects"
+            }
+          ],
+          "test_step_id": 3828860,
+          "test_step_log_id": 11349336,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 3,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349335"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828859"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349335/defects"
+            }
+          ],
+          "test_step_id": 3828859,
+          "test_step_log_id": 11349335,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 2,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349334"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828858"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881938/test-steps/11349334/defects"
+            }
+          ],
+          "test_step_id": 3828858,
+          "test_step_log_id": 11349334,
+          "user_id": 135,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 1,
+          "group": 0,
+          "defects": []
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977"
+        },
+        {
+          "rel": "test-case",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032?versionId=357852"
+        },
+        {
+          "rel": "attachments",
+          "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-logs/4876977/attachments"
+        }
+      ],
+      "id": 4876977,
+      "test_case_version_id": 357852,
+      "exe_start_date": "2018-12-18T13:23:31+04:00",
+      "exe_end_date": "2018-12-18T13:23:31+04:00",
+      "user_id": 713,
+      "planned_exe_time": 0,
+      "actual_exe_time": 0,
+      "properties": [
+        {
+          "field_id": 6546,
+          "field_name": "Tester",
+          "field_value": "713",
+          "field_value_name": "Anton Babchenko"
+        },
+        {
+          "field_id": 6540,
+          "field_name": "Execution Type",
+          "field_value": "501",
+          "field_value_name": "New Feature"
+        },
+        {
+          "field_id": 6553,
+          "field_name": "Test Case Version",
+          "field_value": "1.0"
+        },
+        {
+          "field_id": 6545,
+          "field_name": "Status",
+          "field_value": "602",
+          "field_value_name": "Failed"
+        },
+        {
+          "field_id": 6541,
+          "field_name": "Planned Start Date",
+          "field_value": "2018-12-06T08:00:00+00:00"
+        },
+        {
+          "field_id": 6551,
+          "field_name": "Configuration",
+          "field_value": "28",
+          "field_value_name": "Google Chrome - Windows 10"
+        },
+        {
+          "field_id": 6554,
+          "field_name": "Planned End Date",
+          "field_value": "2019-01-02T08:00:00+00:00"
+        },
+        {
+          "field_id": 6543,
+          "field_name": "Build Number",
+          "field_value": ""
+        },
+        {
+          "field_id": 6548,
+          "field_name": "CI Tool",
+          "field_value": ""
+        },
+        {
+          "field_id": 6557,
+          "field_name": "Build URL",
+          "field_value": ""
+        },
+        {
+          "field_id": 20318,
+          "field_name": "Reason for Failed Test Case",
+          "field_value": "",
+          "field_value_name": ""
+        },
+        {
+          "field_id": 6738,
+          "field_name": "Test Data Source",
+          "field_value": ""
+        }
+      ],
+      "status": {
+        "links": [],
+        "id": 602,
+        "name": "Failed"
+      },
+      "result_number": 1,
+      "test_step_logs": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269955"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828863"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269955/defects"
+            }
+          ],
+          "test_step_id": 3828863,
+          "test_step_log_id": 11269955,
+          "user_id": 713,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 6,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269954"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828862"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269954/defects"
+            }
+          ],
+          "test_step_id": 3828862,
+          "test_step_log_id": 11269954,
+          "user_id": 713,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 5,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269953"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828861"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269953/defects"
+            }
+          ],
+          "test_step_id": 3828861,
+          "test_step_log_id": 11269953,
+          "user_id": 713,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 4,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269952"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828860"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269952/defects"
+            }
+          ],
+          "test_step_id": 3828860,
+          "test_step_log_id": 11269952,
+          "user_id": 713,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 3,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269951"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828859"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269951/defects"
+            }
+          ],
+          "test_step_id": 3828859,
+          "test_step_log_id": 11269951,
+          "user_id": 713,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 2,
+          "group": 0,
+          "defects": []
+        },
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269950"
+            },
+            {
+              "rel": "test-step",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-cases/295032/test-steps/3828858"
+            },
+            {
+              "rel": "defects",
+              "href": "https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4876977/test-steps/11269950/defects"
+            }
+          ],
+          "test_step_id": 3828858,
+          "test_step_log_id": 11269950,
+          "user_id": 713,
+          "status": {
+            "links": [],
+            "id": 605,
+            "name": "Unexecuted"
+          },
+          "actual_result": "",
+          "order": 1,
+          "group": 0,
+          "defects": []
+        }
+      ]
+    }
+  ]
+}

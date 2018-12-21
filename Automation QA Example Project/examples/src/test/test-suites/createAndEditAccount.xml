@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Create and Edit Account">
+
+    <test name="Create Account" verbose="2">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="testCreateAccount" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Edit Account" verbose="2">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="testEditAccount" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Verify Account" verbose="2">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="testVerifyAccount" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

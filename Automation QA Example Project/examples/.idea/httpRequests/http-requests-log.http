@@ -1,0 +1,126 @@
+GET https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941887
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T021109.200.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/linked-artifacts?type=test-runs&ids=941887
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T021029.403.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/defects/0
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T020858.403.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/linked-artifacts?type=defects&ids=17250
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T020734.403.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/linked-artifacts?type=defects&ids=0
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T020612.403.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/linked-artifacts?type=defects
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T020548.400.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/linked-artifacts?type=defects&ids=NINJA-706&type=defects
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T020512.400.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/linked-artifacts?type=defects&ids=NINJA-706
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T020235.400.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941887/test-logs
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T014432.200.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/4881955
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T013453.200.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/1
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T013422.500.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs/0
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T013417.500.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T013051.200.json
+
+###
+
+GET https://qtest.sie.sony.com/api/v3/projects/78/test-runs/941880/test-logs
+Accept: application/json
+Cache-Control: no-cache
+Authorization: Bearer dca710b0-6844-4657-8c45-0300e0529daf
+
+<> 2018-12-20T012642.200.json
+
+###
+
